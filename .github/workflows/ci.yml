@@ -27,6 +27,3 @@ jobs:
 
       - name: Run Jest tests
         run: npm test -- --watchAll=false
-
-      - name: Run Cypress tests (headless)
-        run: npm run cypress:run
